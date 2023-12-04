@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cabecalho {
+    width: 1136px;
+    height: 115px;
+    padding: 0 152px 0 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_busca {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 32px;
+}
+
+.busca{
+    background-color: #F5F5F5;
+    border: #F5F5F5 1px;
+    border-radius: 16px;
+    width: 329px;
+}
+
+.busca img {
+    width: 17px;
+    height: 17px;
+    color: #A2A2A2;
+    margin-left: 90px;
+}
+
+.texto_busca {
+    float: left;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    color: #A2A2A2;    
+    padding-left: 12px;
+    font-size: 14px;
+    border: none;
+    height: 16px;
+    width: 159px;
+}
+
+.botao_frame {
+    background-color: transparent;
+    width: 182px;
+    height: 50px;
+    border-color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.banner {
+    background: url(imagens/Hero_1440X467.svg);
+    width: 1440px;
+    height: 352px;
+}
+
+.banner_titulo {
+    width: 1136px;
+    height: 115px;
+    padding: 0 152px 0 152px;  
+    position: absolute;
+    top: 30%;      
+}
+
+.banner_titulo h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.banner_titulo p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.botao_frame_banner {
+    background-color: #2A7AE4;
+    width: 130px;
+    height: 51px;
+    border: none;
+    font-family: 'Rayway', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+

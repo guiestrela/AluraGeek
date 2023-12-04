@@ -5,18 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="cabecalho">
-        <img src="imagens/Logo.svg" alt="logo">
-        <button>Login</button>
+        <div class="logo_busca">
+            <div class="logo">
+                <img src="imagens/Logo.svg" alt="logo">
+            </div>
+                
+            <section class="buca_container">            
+                <div class="busca">
+                    <input type="text" class="texto_busca" placeholder="O que deseja encontar?">
+                    <img src="imagens/Icone-lupa-gray.svg" class="btn_busca" alt="busca">
+                </div>
+            </section>
+        </div>
+        
+        <div class="botao">
+            <a href="#"><button class="botao_frame">Login</button></a>
+        </div>        
+        
     </header>
+
     <main>
+
         <section class="banner">
-            <h1>Dezembro Promocinal</h1>
-            <p>Produtos selecinados com 33% de desconto</p>
-            <button>Ver Consoles</button>
-        </section>
+            <div class="banner_titulo">
+                <h1>Dezembro Promocinal</h1>  
+                <p>Produtos selecinados com 33% de desconto</p>              
+            
+                <div class="botao_banner">
+                <a href="#"><button class="botao_frame_banner">Ver Consoles</button></a>
+            </div> 
+        </section>  
+        
+
+
         <section class="star_wars container">
             <h2>Star Wars</h2>
             <a href="#">Ver tudo<img src="imagens/blue_arrow.svg" alt="blue arrow"></a>
