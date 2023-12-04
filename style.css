@@ -56,11 +56,6 @@ table {
     align-items: center;
 }
 
-.logo_busca {
-    display: flex;
-    align-items: center;
-}
-
 .logo {
     margin-right: 32px;
 }
@@ -89,6 +84,11 @@ table {
     border: none;
     height: 16px;
     width: 159px;
+}
+
+.logo_busca {
+    display: flex;
+    align-items: center;
 }
 
 .botao_frame {
