@@ -102,4 +102,36 @@ body {
     border-style: solid;     
 }
 
+/* star wars */
+
+.star__wars {
+    width: 360px;
+    height: 588px;
+    padding: 16px;    
+}
+
+.titulo__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.titulo__container h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cor-texto);
+    text-align: justify;
+}
+
+.titulo__texto__link {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cor-azul);
+}
+
+.titulo__texto__link a {
+    vertical-align: middle;
+}
+
 
