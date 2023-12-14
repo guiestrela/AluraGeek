@@ -4,40 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="logo_container">
-            <div class="logo">
-                <img src="imagens/Logo.svg" alt="logo">
-            </div>
-                
-                <div class="busca">
-                    <input type="text" class="texto_busca" placeholder="O que deseja encontar?">
-                    <img src="imagens/Icone-lupa-gray.svg" class="btn_busca" alt="busca">
-                </div>        
 
-        </div>
-        
-        <div class="botao">
-            <a href="#"><button class="botao_frame">Login</button></a>
-        </div>        
+    <header>
+
+        <nav class="cabecalho__container">
+
+            <div class="logo_container">
+
+                <div class="cabecalho__logo">
+                    <img src="imagens/Logo.svg" alt="logo">
+                </div>
+                    
+                    <div class="cabecalho__busca">
+                        <input type="text" class="texto_busca" placeholder="O que deseja encontar?">
+                        <img src="imagens/Icone-lupa-gray.svg" class="btn__busca" alt="busca">
+                    </div>   
+                
+            </div>
+            
+            <div class="cabecalho__botao">
+                <a href="#"><button class="botao__frame">Login</button></a>
+            </div>        
+            
+            <div class="bnt__busca__mobile">
+                <img src="imagens/Icone-lupa.svg" class="btn__busca" alt="busca">
+            </div>
+
+        </nav>
         
     </header>
 
     <main>
 
         <section class="banner">
-            <div class="banner_titulo">
+            <div class="banner__titulo">
                 <h1>Dezembro Promocinal</h1>  
                 <p>Produtos selecinados com 33% de desconto</p>              
             
-                <div class="botao_banner">
-                <a href="#"><button class="botao_frame_banner">Ver Consoles</button></a>
+                <div class="banner__botao">
+                <a href="#"><button class="banner__botao__frame">Ver Consoles</button></a>
             </div> 
         </section>  
         
