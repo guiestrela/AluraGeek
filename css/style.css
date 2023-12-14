@@ -102,12 +102,13 @@ body {
     border-style: solid;     
 }
 
-/* star wars */
+/* container de podutos */
 
-.star__wars {
+.container {
     width: 360px;
     height: 588px;
-    padding: 16px;    
+    padding: 16px; 
+    align-items: center;   
 }
 
 .titulo__container {
@@ -130,8 +131,10 @@ body {
     color: var(--cor-azul);
 }
 
-.titulo__texto__link a {
-    vertical-align: middle;
+.grid {
+    display: grid;
+    width: 328px;
+    height: 249px;
+    grid-template-columns: 164px 164px;
+    gap: 16px;    
 }
-
-
