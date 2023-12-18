@@ -172,33 +172,12 @@ body {
 /* rodape */
 
 .rodape {
+    display: flex;
     background-color: var(--cor-azulClaro);
     width: 360px;
     height: 553px;
     padding: 16px;
     gap: 16px;
-}
-
-.rodape__logo__formulario {
-    width: 328px;
-    height: 521px;
-    gap: 32px;
-}
-
-.rodape__logo {  
-    padding-bottom: 16px;
-}
-
-.rodape__lista {
-    width: 328px;
-    height: 194px;
-    gap: 16px;
-}
-
-.rodape__lista li {
-    font-size: 16px;
-    font-weight: 500;
-    padding-bottom: 16px;
 }
 
 /* rodape mdg */
