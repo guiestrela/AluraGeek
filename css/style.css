@@ -6,6 +6,7 @@
     --cor-texto: #464646;
     --cor-lupa-mob: #464646;
     --cor-azul: #2A7AE4;
+    --cor-azulClaro: #EAF2FD;
     box-sizing: border-box;
 }
 
@@ -108,7 +109,7 @@ body {
 .consoles__container,
 .star__wars__container {
     width: 360px;
-    height: 820px;    
+    height: 588px;    
     gap: 16px;
     padding: 16px; 
     text-align: justify;  
@@ -135,9 +136,11 @@ body {
     color: var(--cor-azul);
 }
 
+/* grid */
+
 .grid {
-    display: grid;
-    grid-template-columns: 164px 164px;
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
     width: 328px;
     height: 249px;   
     gap: 8px;
@@ -164,4 +167,50 @@ body {
     font-weight: 700;
     color: var(--cor-azul);
     
+}
+
+/* rodape */
+
+.rodape {
+    background-color: var(--cor-azulClaro);
+    width: 360px;
+    height: 553px;
+    padding: 16px;
+    gap: 16px;
+}
+
+.rodape__logo__formulario {
+    width: 328px;
+    height: 521px;
+    gap: 32px;
+}
+
+.rodape__logo {  
+    padding-bottom: 16px;
+}
+
+.rodape__lista {
+    width: 328px;
+    height: 194px;
+    gap: 16px;
+}
+
+.rodape__lista li {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+/* rodape mdg */
+
+.rodape__msg {
+    width: 360px;
+    height: 102px;
+    padding: 32px;
+    gap: 10px;
+}
+
+.rodape__msg img {
+    width: 24px;
+    height: 24px;
 }
