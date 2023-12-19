@@ -191,13 +191,13 @@ body {
     padding-bottom: 16px;
 }
 
-.rodape__formulario {
+.rodape__formulario__mob {
     width: 328px;
     height: 229px;
     gap: 8px;    
 }
 
-.rodape__formulario p {
+.rodape__formulario__mob p {
     font-size: 16px;
     font-weight: 700;
     text-align: justify;

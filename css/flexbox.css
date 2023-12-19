@@ -10,12 +10,87 @@
     display: none;
 }
 
+@media (min-width: 768px) {
+
+    .cabecalho__container{
+        display: flex;
+        width: 768px;
+        height: 72px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .logo__container {
+        display: flex;
+        width: 404px;
+        height: 40px;
+        gap: 32px;
+    }
+
+    .cabecalho__busca {
+        display: flex;
+        background-color: #F5F5F5;
+        border: 1px;
+        border-radius: 20px;
+        width: 272px;
+        height: 40px;
+        align-items: center;             
+    }
+
+    .texto__busca {
+        float:left;
+        background-color:transparent;
+        font-size:14px;
+        border:none;
+        width:208px;  
+        height:16px;            
+    }
+
+    .btn__busca {
+        width: 17.05px;
+        height: 17.05px;
+        top: 3px;
+        left: 3px;
+    }
+
+    .bnt__busca__mobile {
+        display: none;
+    }    
+}
+/* banner */
+
 .banner {
     background: url(../imagens/Hero_360X192.svg);
     display: flex;
     justify-content:center;
     align-items: flex-end;
     text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .banner {
+        background: url(../imagens/Hero_768X352.svg);
+        width: 768px;
+        height: 352px;
+        padding: 32px;
+        gap: 16px;
+    }
+
+    .banner__titulo {
+        width: 710px;
+        height: 159px;
+    }
+    
+    .banner__titulo h1{
+        font-size: 52px;
+        font-weight: 700;        
+    }
+    
+    .banner__titulo p{
+        font-size: 22px;
+        font-weight: 700;        
+    }
+    
 }
 
 /* grid */
@@ -26,5 +101,131 @@
 
 .iten-6 {
     display: none;
+}
+
+@media (min-width: 768px) {
+    
+    .diversos__container,
+    .consoles__container,
+    .star__wars__container {
+        width: 768px;
+        height: 358px;    
+        gap: 16px;
+        padding: 32px; 
+        text-align: justify;  
+        position: relative; 
+    }
+
+    .grid {
+        display: grid;    
+        grid-template-columns: repeat(4, 1fr);
+        width: 704px;
+        height: 252px;   
+        gap: 16px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;    
+    }
+
+}
+
+/* rodape */
+
+
+.rodape__formulario {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .rodape__formulario__mob {
+        display: none;
+    }
+
+    .rodape {
+        width: 768px;
+        height: 364px;
+        padding: 32px;
+        gap: 105px;
+        justify-content: space-between;
+    }
+
+    .rodape__logo {
+        display: flex;
+        gap: 16px;       
+        
+    }
+
+    .rodape__logo__formulario {
+        display: inline;
+        width: 254px;
+        height: 300px;
+        gap: 16px;
+    }
+
+    .rodape__lista {
+        width: 176px;
+        height: 234px;
+        gap: 24px;
+        text-align: justify;
+    }
+
+    .rodape__formulario {
+        display: flex;
+        width: 434px;
+        height: 229px;
+        gap: 8px; 
+    }
+
+    .rodape__formulario p {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: justify;
+        padding-bottom: 8px;
+    }
+
+    .formulario__nome{
+        padding-bottom: 8px;
+        text-align: justify;
+        
+    }
+    .formulario__nome input {
+        width: 434px;
+        height: 56px;
+        gap: 8px;  
+        }
+    
+    .formulario__texto {
+        padding-bottom: 8px;
+        text-align: start;
+        
+    }
+    
+    .formulario__texto input {
+        width: 434px;
+        height: 82px;
+        border-radius: 4px;
+        
+    }
+    
+    .rodape__botao {
+        color: var(--background-header);
+        font-size: 14px;
+        text-align: center;
+        width: 151px;
+        height: 40px;
+        padding: 12px 16px 12px 16px;
+        gap: 10px;
+        background-color: var(--cor-azul);
+        border: 1px solid var(--cor-azul);
+        border-style: solid;  
+    }
+
+    .rodape__msg {
+        width: 768px;
+        height: 102px;
+        padding: 32px;
+        gap: 10px;
+    }
 }
 
