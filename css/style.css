@@ -178,15 +178,77 @@ body {
     height: 553px;
     padding: 16px;
     gap: 16px;
+    
+}
+
+.rodape__lista {
+    width: 328px;
+    height: 194px;
+    gap: 16px;
+}
+
+.rodape__lista li {
+    padding-bottom: 16px;
+}
+
+.rodape__formulario {
+    width: 328px;
+    height: 229px;
+    gap: 8px;
+    
+}
+
+.rodape__formulario p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: justify;
+    padding-bottom: 8px;
+}
+
+.formulario__nome{
+    padding-bottom: 8px;
+}
+.formulario__nome input {
+    width: 328px;
+    height: 56px;
+    gap: 8px;
+}
+
+.formulario__texto {
+    padding-bottom: 8px;
+}
+
+.formulario__texto input {
+    width: 328px;
+    height: 82px;
+    gap: 8px;
+}
+
+.roda
+
+.rodape__botao {
+    color: var(--background-header);
+    font-size: 14px;
+    text-align: center;
+    width: 151px;
+    height: 40px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    background-color: var(--cor-azul);
+    border: 1px solid var(--cor-azul);
+    border-style: solid;  
 }
 
 /* rodape mdg */
 
 .rodape__msg {
+    background-color: white;
     width: 360px;
     height: 102px;
     padding: 32px;
     gap: 10px;
+    text-align: center;
+    
 }
 
 .rodape__msg img {
