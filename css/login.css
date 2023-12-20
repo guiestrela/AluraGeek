@@ -1,0 +1,58 @@
+.login {
+
+}
+
+.login__container {
+    display: flex;
+    width: 275px;
+    height: 189px;
+    top: 169;
+    left: 45px; 
+    background-color: #f5f5f5;
+}
+
+.login__container p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: justify;
+    padding-bottom: 8px;
+}
+
+.formulario__login {
+    padding-bottom: 8px;
+    text-align: justify;
+    
+}
+.formulario__login input {
+    width: 275px;
+    height: 41px;
+    top: 204px;
+    left: 45px;
+    border-radius: 4px;  
+    }
+
+.formulario__senha {
+    padding-bottom: 8px;
+    text-align: start;
+    
+}
+
+.formulario__senha input {
+    width: 434px;
+    height: 82px;
+    border-radius: 4px;
+    
+}
+
+.login__botao {
+    color: var(--background-header);
+    font-size: 14px;
+    text-align: center;
+    width: 151px;
+    height: 40px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    background-color: var(--cor-azul);
+    border: 1px solid var(--cor-azul);
+    border-style: solid;  
+}
