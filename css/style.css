@@ -20,7 +20,9 @@ body {
     font-size: 14px;
     color: var(--cor-texto);
     box-sizing: border-box;
+    display: table-caption;
     text-align: center;
+    gap: 64px;
 }
 
 /* Header */
@@ -70,8 +72,10 @@ body {
 }
 
 .banner__titulo {
+    display: grid;
     width: 328px;
     height: 98px;
+    align-items: center;
 }
 
 .banner__titulo h1{

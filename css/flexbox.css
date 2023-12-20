@@ -1,3 +1,9 @@
+.cabecalho {
+    display: flex;
+    width: 360px;
+    height: 72px;
+}
+
 .cabecalho__container {
     display: flex;
     justify-content: space-between;
@@ -12,12 +18,16 @@
 
 @media (min-width: 768px) {
 
-    .cabecalho__container{
-        display: flex;
+    .cabecalho {
         width: 768px;
         height: 72px;
         gap: 10px;
-        align-items: center;
+    }
+
+    .cabecalho__container{
+        width: 768px;
+        height: 72px;
+        gap: 10px;
     }
 
     .logo__container {
@@ -57,11 +67,67 @@
         display: none;
     }    
 }
+
+@media (min-width: 1440px) {
+    
+    .cabecalho {
+        width: 1440px;
+        height: 115px;
+        gap: 10px;        
+    }
+
+    .cabecalho__container{
+        width: 1264px;
+        height: 115px;
+        padding: 32px 0px 32px 179px; 
+        justify-content: space-between;        
+    }
+
+    .cabecalho__logo {
+        width: 176px;
+        height: 50px;
+    }
+
+    .logo__container {
+        display: flex;
+        width: 601px;
+        height: 50px;
+        
+    }
+
+    .cabecalho__busca {
+        width: 393px;
+        height: 40px;
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+    }
+
+    .texto__busca {
+        width:329px;  
+        height:16px;            
+    }
+
+    .bnt__busca__mobile {
+        display: none;
+    }
+    
+    .cabecalho__botao {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .botao__frame {
+        width: 182px;
+        height: 51px;
+        padding: 16px;
+    }
+}
+
 /* banner */
 
 .banner {
-    background: url(../imagens/Hero_360X192.svg);
     display: flex;
+    background: url(../imagens/Hero_360X192.svg);
     justify-content:center;
     align-items: flex-end;
     text-align: justify;
@@ -91,6 +157,45 @@
         font-weight: 700;        
     }
     
+}
+
+@media (min-width: 1440px) {
+    .banner {
+        background: url(../imagens/Hero_1440X467.svg);
+        width: 1440px;
+        height: 352px;              
+    }
+
+    .banner__titulo {
+        width: 1089px;
+        height: 167px;
+        gap: 16px;
+        align-items: center;
+    }
+    
+    .banner__titulo h1{
+        font-size: 52px;
+        font-weight: 700;        
+    }
+    
+    .banner__titulo p{
+        font-size: 22px;
+        font-weight: 700;        
+    }
+
+    .banner__botao {
+        font-size: 16px;
+        font-weight: 400;        
+    }
+    
+    .banner__botao__frame {
+        width: 130px;
+        height: 51px;
+        padding: 16px;  
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+    }
 }
 
 /* grid */
@@ -124,10 +229,43 @@
         gap: 16px;
         font-size: 16px;
         font-weight: 500;
-        text-align: left;    
+        text-align: left;
+        padding: 16px;    
     }
 
 }
+
+@media (min-width: 1440px) {
+
+    .main__produtos{
+        width: 1440px;
+        height: 967px;    
+        
+    }
+
+    .diversos__container,
+    .consoles__container,
+    .star__wars__container {
+        width: 1136px;
+        height: 306px;  
+        display: inline-block;    
+    }
+
+    .grid {
+        grid-template-columns: repeat(6, 1fr);
+        width: 1081px;
+        height: 252px;          
+    }
+
+    .iten-5 {
+        display: block;
+    }
+    
+    .iten-6 {
+        display: block;
+    }
+}
+
 
 /* rodape */
 
@@ -147,13 +285,14 @@
         height: 364px;
         padding: 32px;
         gap: 105px;
-        justify-content: space-between;
+        align-content: center;
+        justify-content: center;
     }
 
     .rodape__logo {
         display: flex;
         gap: 16px;       
-        
+        padding-bottom: 16px;
     }
 
     .rodape__logo__formulario {
@@ -229,3 +368,72 @@
     }
 }
 
+@media (min-width: 1440px) {
+    .rodape__formulario__mob {
+        display: none;
+    }
+
+    .rodape {
+        width: 1440px;
+        height: 368px;
+        padding: 64px;
+        gap: 115px;
+    }
+
+    .rodape__logo {
+        width: 176px;
+        height: 50px;
+    }
+
+    .rodape__logo__formulario {
+        display: contents;
+        width: 254px;
+        height: 300px;
+        gap: 16px;
+    }
+
+    .rodape__lista {
+        width: 176px;
+        height: 234px;
+        gap: 24px;
+        text-align: justify;
+    }
+
+    .rodape__formulario {
+        display: flex;
+        width: 560px;
+        height: 240px;
+    }
+
+    .rodape__formulario p {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: justify;
+        padding-bottom: 8px;
+    }
+
+    .formulario__nome{
+        padding-bottom: 8px;
+        text-align: justify;
+        
+    }
+    .formulario__nome input {
+        width: 560px;
+        height: 56px;
+    }
+    
+    .formulario__texto {
+        padding-bottom: 8px;
+        text-align: start;
+        
+    }
+    
+    .formulario__texto input {
+        width: 560px;
+        height: 82px;
+    }
+    
+    .rodape__msg {
+        width: 1440px;
+    }
+}
