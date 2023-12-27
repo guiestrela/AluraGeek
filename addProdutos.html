@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/addProdutos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <title>Adicionar produtos</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+
+            <nav class="cabecalho__container">
+
+                <div class="logo__container">
+    
+                    <div class="cabecalho__logo">
+                        <a href="index.html"><img src="imagens/Logo.svg" alt="logo"></a>
+                    </div>
+                        
+                        <div class="cabecalho__busca">
+                            <input type="text" class="texto__busca" placeholder="O que deseja encontar?">
+                            <img src="imagens/Icone-lupa-gray.svg" class="btn__busca" alt="busca">
+                        </div>   
+                    
+                </div>
+                
+                <div class="cabecalho__botao__add__produtos">
+                    <a href="#"><button class="botao__frame__add__produtos">Menu administrador</button></a>
+                </div>        
+                
+                <div class="bnt__busca__mobile">
+                    <img src="imagens/Icone-lupa.svg" class="btn__busca" alt="busca">
+                </div>
+    
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+        
+        <div class="add__novos__produtos">
+            
+            <div class="add__produtos__container">
+                
+                <form action="#">  
+                    <p>Adicionar novos produtos</p> 
+                    <div class="formulario formulario__url__img">
+                        <label for="URL da imagem"></label>
+                        <input type="text" placeholder="URL da imagem">
+                    </div>
+    
+                    <div class="formulario formulario__categoria">
+                        <input type="text" placeholder="Categoria">
+                    </div>
+
+                    <div class="formulario formulario__produto">
+                        <input type="text" placeholder="Nome do produto">
+                    </div>
+
+                    <div class="formulario formulario__preco">
+                        <input type="text" placeholder="Preço do produto">
+                    </div>
+
+                    <div class="formulario__descricao">
+                        <input type="text" placeholder="Descrição do produto">
+                    </div>                    
+    
+                    <div class="add__produto__botao">
+                        <a href="#"><button type="submit">Adicionar produto</button></a>
+                    </div>
+                </form>
+    
+            </div>
+
+        </div>        
+        
+    </main>
+    <footer>
+        <div class="rodape">
+
+            <div class="rodape__logo__formulario">
+
+                <div class="rodape__logo">
+                    <img src="imagens/Logo.svg" alt="logo">
+                </div>
+
+                <div class="rodape__lista"> 
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                        <li><a href="#">Programa de fidelidade</a></li>
+                        <li><a href="#">Nossas lojas</a></li>
+                        <li><a href="#">Quero ser franqueado</a></li>
+                        <li><a href="#">Anuncie aqui</a></li>
+                    </ul>
+                </div>
+                
+                <div class="rodape__formulario__mob">
+                    <form action="#">
+                        <p>fale conosco</p> 
+                        <div class="formulario__nome">
+                            <label for="nome"></label>
+                            <input type="text" placeholder="nome">
+                        </div>
+
+                        <div class="formulario__texto">
+                            <label for="msg"></label>
+                            <input type="msg" placeholder="escreva sua mensagem">
+                        </div>
+
+                        <div class="rodape__botao">
+                            <button type="submit">Enviar mensagem</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>  
+            <div class="rodape__formulario">
+                <form action="#">
+                    <p>fale conosco</p> 
+                    <div class="formulario__nome">
+                        <label for="nome"></label>
+                        <input type="text" placeholder="nome">
+                    </div>
+
+                    <div class="formulario__texto">
+                        <label for="msg"></label>
+                        <input type="msg" placeholder="escreva sua mensagem">
+                    </div>
+
+                    <div class="rodape__botao">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+
+            <div class="rodape__msg">
+                <p>Desenvolvido por Guilherme Estrela</p>
+                <a href="#"><img src="imagens/git.png" alt="link github"></a>
+            </div>
+            
+        
+    </footer>
+    
+</body>
+</html>
