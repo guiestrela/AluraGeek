@@ -55,7 +55,7 @@
 }
 
 .formulario {
-    padding-bottom: 8px;
+    padding-bottom: 16px;
     text-align: justify;    
 }
 
@@ -68,7 +68,7 @@
     }
 
 .formulario__descricao {
-    padding-bottom: 8px;
+    padding-bottom: 16px;
     text-align: justify;
 }
 
@@ -101,9 +101,51 @@
 
 @media (min-width: 768px){
 
+    .add__produtos__container {
+        width: 768px;
+        height: 543px;
+        padding: 32px;
+        gap: 16px;        
+    }
     
+    .formulario input {
+        width: 704px;
+        height: 56px;
+    }
+    
+    .formulario__descricao {
+        padding-bottom: 8px;
+        text-align: justify;
+    }
+    
+    .formulario__descricao input{
+        width: 704px;
+        height: 82px;        
+    }
+    
+    .add__produto__botao {
+        width: 704px;
+        height: 51px;        
+    }
 }
 
 @media (min-width: 1024px){
-
+    .add__produtos__container {
+        width: 1136px;
+        height: 491px;
+    }
+    
+    .formulario input {
+        width: 559px;
+    }
+    
+    .formulario__descricao input{
+        width: 559px;
+    }
+    
+    .add__produto__botao {
+        width: 559px;
+        height: 51px; 
+        padding: 16px;       
+    }
 }
