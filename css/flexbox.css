@@ -12,6 +12,11 @@
     top: 0;
 }
 
+.cabecalho__logo img{
+    width: 100px;
+    height: 28px;
+}
+
 .cabecalho__busca {
     display: none;
 }
@@ -35,6 +40,11 @@
         width: 404px;
         height: 40px;
         gap: 32px;
+    }
+
+    .cabecalho__logo img{
+        width: 100px;
+        height: 28px;
     }
 
     .cabecalho__busca {
@@ -93,6 +103,11 @@
         width: 601px;
         height: 50px;
         
+    }
+
+    .cabecalho__logo img{
+        width: 176px;
+        height: 50px;
     }
 
     .cabecalho__busca {
